@@ -5,7 +5,7 @@ import { CssModules } from "./components/CssModules";
 import { StyledJsx } from "./components/StyledJsx";
 import { StyledComponents } from "./components/StyledComponents";
 import { Emotion } from "./components/Emotion";
-import { VanillaExtract } from "./components/VanillaExtract";
+import { MaterialUi } from "./components/MaterialUi";
 
 export default function App() {
   return (
@@ -15,7 +15,7 @@ export default function App() {
       <StyledJsx />
       <StyledComponents />
       <Emotion />
-      <VanillaExtract />
+      <MaterialUi>Test</MaterialUi>
     </div>
   );
 }
